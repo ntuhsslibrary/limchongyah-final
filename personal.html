@@ -34,8 +34,8 @@
 						Take a look at the man behind the economist. Professor Lim Chong Yah and his wife share the stories of how they dynamically complete each other.
 						
 						<div class="container-fluid videos">
-							<div class="col-md-3 video-item">
-								<a href="videos/Section A.mp4" class="video">
+							<div class="col-md-3">
+								<a href="https://www.youtube.com/watch?v=6dGPHTW8sXU" class="bla-1">
 									<img src="img/screenshots/A.png" alt="Personal Life" title="Personal Life" />
 								</a>
 							</div>
@@ -62,5 +62,16 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
+	  
+<!-- Qassim Hassan's Youtube Popup Plugin -->
+<link rel="stylesheet" type="text/css" href="css/YouTubePopUp.css">
+<script type="text/javascript" src="js/YouTubePopUp.jquery.js"></script>
+<script type="text/javascript">
+  jQuery(function(){
+      jQuery("a.bla-1").YouTubePopUp();
+      jQuery("a.bla-2").YouTubePopUp( { autoplay: 0 } ); // Disable autoplay
+  });
+</script>
+	  
   </body>
 </html>
