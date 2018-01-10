@@ -35,8 +35,8 @@ $(".video-item a").click(function(event) {
 
 // CSV handling 
 $.ajax({
-	// alt URL: https://rawgit.com/bellaratmelia/limchongyah/master/lcy_news.csv
-    url: "https://cdn.rawgit.com/bellaratmelia/limchongyah/954f8d77/lcy_news.csv",
+	// alt URL: https://rawgit.com/ntuhsslibrary/limchongyah-final/master/lcy_news.csv
+    url: "https://cdn.rawgit.com/ntuhsslibrary/limchongyah-final/98f9d511/lcy_news.csv",
     async: true,
     success: function (csvd) {
         items = $.csv.toObjects(csvd);
