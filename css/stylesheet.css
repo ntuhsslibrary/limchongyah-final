@@ -122,6 +122,13 @@ ul.main_menu li a.home {
 	/* width: 100%; */
 /* } */
 
+#clickablelink {
+  display: block;
+  position: absolute;
+  height: 360px;
+  width: 360px;
+}
+
 ul.main_menu {
 	list-style: none;
 }
