@@ -112,8 +112,8 @@ ul.main_menu li a.home {
 }
 
 .memoriam {
-	background-image: url("../img/bg/bg-memoriam.png");
-	height: 50%;
+	background-image: url("../img/bg/bg-scholarship.png");
+	height: 100vh;
   background-repeat: no-repeat;
   background-position: right bottom;  /* positioned bg at bottom right */
   position: relative;
