@@ -113,7 +113,7 @@ ul.main_menu li a.home {
 
 .memoriam {
 	background-image: url("../img/bg/bg-memoriam.png");
-	height: 100vh;
+	height: 50%;
   background-repeat: no-repeat;
   background-position: right bottom;  /* positioned bg at bottom right */
   position: relative;
