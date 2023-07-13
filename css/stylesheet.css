@@ -114,6 +114,9 @@ ul.main_menu li a.home {
 .memoriam {
 	background-image: url("../img/bg/bg-memoriam.png");
 	height: 100vh;
+  background-repeat: no-repeat;
+  background-position: right bottom;  /* positioned bg at bottom right */
+  position: relative;
 }
  /* end background CSS codes */
  
@@ -125,10 +128,8 @@ ul.main_menu li a.home {
 #clickablelink {
   display: block;
   position: absolute;
-  right: -59px;
-  bottom: -144px;
-  height: 360px;
-  width: 360px;
+  height: 100%;
+  width: 100%;
 }
 #clickablelink:hover {
   background: rgba(255, 255, 255, 0.5);
