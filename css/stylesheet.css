@@ -125,8 +125,13 @@ ul.main_menu li a.home {
 #clickablelink {
   display: block;
   position: absolute;
+  right: -59px;
+  bottom: -144px;
   height: 360px;
   width: 360px;
+}
+#clickablelink:hover {
+  background: rgba(255, 255, 255, 0.5);
 }
 
 ul.main_menu {
