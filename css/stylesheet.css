@@ -110,6 +110,11 @@ ul.main_menu li a.home {
 		),
 		url("../img/bg/bg-scholarship.png");
 }
+
+.memoriam {
+	background-image: url("../img/bg/bg-memoriam.png");
+	height: 100vh;
+}
  /* end background CSS codes */
  
 /* .content { */
